@@ -105,7 +105,7 @@ class RecensementPresenter
     when Recensement::SECURISATION_CORRECTE
       badge("success") { I18n.t("recensement.securisation_badges.correcte") }
     when Recensement::SECURISATION_MAUVAISE
-      badge("warning") { I18n.t("recensement.securisation_badges.mauvaise") }
+      badge("new") { I18n.t("recensement.securisation_badges.mauvaise") }
     end
   end
 end

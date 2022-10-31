@@ -79,7 +79,7 @@ module RecensementHelper
       Option.new(
         Recensement::SECURISATION_MAUVAISE,
         t("recensement.securisation_choices.mauvaise"),
-        "warning"
+        "new"
       ),
       Option.new(
         Recensement::SECURISATION_CORRECTE,
