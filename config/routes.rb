@@ -158,6 +158,16 @@ Rails.application.routes.draw do
     end
   end
 
+  # -----
+  # API
+  # -----
+
+  namespace :api do
+    namespace :v1 do
+      resources :inbound_emails, only: [:create]
+    end
+  end
+
   # ------
   # DEMOS
   # ------

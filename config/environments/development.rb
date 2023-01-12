@@ -86,7 +86,7 @@ Rails.application.configure do
 
   config.x.environment_specific_name = "development"
 
-  config.hosts << /.*\.ngrok\.io/
+  config.hosts << "collectifobjets-mail-inbound.loophole.site"
 
   config.log_file_size = 100_000_000
 end
